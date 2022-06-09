@@ -1,0 +1,30 @@
+:root {
+    --primary-font-color: #eeeeee;
+    --primary-background-color: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* start header */
+/* end header */
+
+/* start about-me */
+/* end about-me */
+
+/* start work */
+/* end work */
+
+/* start contact */
+/* end contact */
+
+/* start footer */
+/* end footer */
+
+/* start utlilites */
+/* end utilities */
+
+/* start media queries */
+/* end media queries */
