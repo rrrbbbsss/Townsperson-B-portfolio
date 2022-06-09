@@ -6,9 +6,51 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* start header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.avatar-title-box {
+    display: flex;
+    align-items: center;
+}
+
+.avatar-title-box h1 {
+    padding: 10px;
+}
+
+.avatar-img img {
+    width: 80px;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+}
+.header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.header nav ul li {
+    padding: 10px 15px;
+}
 /* end header */
 
 /* start about-me */
