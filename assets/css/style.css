@@ -85,6 +85,21 @@ section {
 /* end all-sections */
 
 /* start about-me */
+#about-me {
+}
+
+.about-me-content {
+    padding: 10px;
+}
+.about-me-content p {
+    border: 3px solid;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 /* end about-me */
 
 /* start work */
