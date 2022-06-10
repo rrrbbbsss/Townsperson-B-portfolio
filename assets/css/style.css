@@ -4,18 +4,18 @@
 
     --header-footer-font-color: #eeeeee;
     --header-footer-background-color: #262626;
-    --header-footer-border-color: #eeeeee;
+    --header-footer-border-color: #5f87d7;
 
     --section-title-font-color: #eeeeee;
-    --section-title-backgound-color: #303030;
+    --section-title-backgound-color: #262626;
     --section-title-border-color: #eeeeee;
 
-    --content-font-color: #eeeeee;
-    --content-background-color: #444444;
+    --content-font-color: 	#e4e4e4 ;
+    --content-background-color:	#3a3a3a;
     --content-border-color: #eeeeee;
 
-    --link-font-color: #eeeeee;
-    --link-background-color: #585858;
+    --link-font-color: #eeeee;
+    --link-background-color: #4e4e4e;
     --link-border-color: #eeeeee;
 
     --link-font-color-hover: #5f87d7;
@@ -66,11 +66,13 @@ body {
     padding: 10px;
     color: var(--link-font-color);
     background-color: var(--link-background-color);
+    border-color: var(--link-border-color);
 }
 
 .header a:hover {
     background: var(--link-background-color-hover);
     color: var(--link-font-color-hover);
+    border-color: var(--link-border-color-hover);
     border-color: var(--link-border-color-hover);
 }
 
@@ -196,8 +198,7 @@ section {
 .work-other-projects-container a {
     margin: 10px;
     border: 3px solid;
-    border-color: var(--content-border-color);
-    background-color: var(--content-background-color);
+    border-color: var(--link-border-color);
     text-decoration: none;
     color: var(--link-font-color);
     background-color: var(--link-background-color);
