@@ -158,13 +158,22 @@ section {
     padding: 10px;
 }
 
-.work-main-project-container figure {
+.work-main-project-container a {
     margin: 0;
     padding: 0;
     border: 3px solid;
-    border-color: var(--content-border-color);
     font-size: 20px;
-    background-color: var(--content-background-color);
+    text-decoration: none;
+    color: var(--link-font-color);
+    background-color: var(--link-background-color);
+    border-color: var(--link-border-color);
+}
+
+.work-main-project-container a:hover {
+    text-decoration: none;
+    color: var(--link-font-color-hover);
+    background-color: var(--link-background-color-hover);
+    border-color: var(--link-border-color-hover);
 }
 
 .work-main-project-container img {
@@ -185,12 +194,24 @@ section {
     margin: auto;
 }
 
-.work-other-projects-container figure {
+.work-other-projects-container a {
     margin: 10px;
     border: 3px solid;
     border-color: var(--content-border-color);
     background-color: var(--content-background-color);
+    text-decoration: none;
+    color: var(--link-font-color);
+    background-color: var(--link-background-color);
 }
+
+
+.work-other-projects-container a:hover {
+    text-decoration: none;
+    color: var(--link-font-color-hover);
+    background-color: var(--link-background-color-hover);
+    border-color: var(--link-border-color-hover);
+}
+
 
 .work-other-projects-container img {
     max-width: 100%;
