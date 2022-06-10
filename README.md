@@ -1,13 +1,12 @@
 # Townsperson B's Portfolio
 
 ## Purpose
-A portfolio showcasing Townsperson B's talents.
+A portfolio showcasing Townsperson B's talents to potential employers.
 
 ## Website
 https://rrrbbbsss.github.io/Townsperson-B-portfolio/
 
-[comment]: <> (todo: take screenshot when done)
-(![Townsperson B's portfolio website](./assets/images/screenshot.png))
+![Townsperson B's portfolio website show casing a short bio, project work, and contact infomation](./assets/images/screenshot.png)
 
 ## Contribution
 Townsperson B
